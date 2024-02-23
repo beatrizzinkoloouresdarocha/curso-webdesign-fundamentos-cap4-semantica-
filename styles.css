@@ -1,5 +1,10 @@
-body{
+body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ccc;
+}
+
+.hero {
+    background-image: url(../imagens/imagem1.jpg);
+    height: 500px; 
 }
