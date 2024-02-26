@@ -22,7 +22,7 @@ nav a {
     display: block;
     color: rgb(240, 255, 245);
     text-align: center;
-    padding: 15px 200px;
+    padding: 15px 20px; /* Ajustado o espaçamento do padding */
     text-decoration: none;
 }
 
@@ -31,21 +31,36 @@ nav a:hover {
 }
 
 #texto-e-imagem {
-    width: 100%; /* Define a largura para ocupar 100% da largura do pai */
+    width: 100%;
 }
 
 #texto-e-imagem img {
-    width: 100%; /* Define a largura da imagem como 100% da largura do contêiner */
+    width: 100%;
 }
 
 #div-texto {
-    background-color: lightblue; /* Define a cor de fundo */
-    padding: 30px; /* Adiciona espaço interno para melhor legibilidade */
-    margin-top:0px; /* Adiciona margem superior para separação do conteúdo acima */
-    border-radius: 0px; /* Adiciona bordas arredondadas */
+    background-color: lightblue;
+    padding: 30px;
+    margin-top: 20px; /* Ajustado para 20px */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
 }
 
 #div-texto strong {
-    font-weight: bold; /* Garante que a palavra "HTML" seja exibida em negrito */
-    font-size: 30px; /* Define o tamanho da fonte para a palavra "HTML" */
+    font-weight: bold;
+    font-size: 24px; /* Reduzido para 24px */
+}
+
+/* Estilos para o botão */
+#botaosaibamais {
+    padding: 10px 20px;
+    background-color: #12ace9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#botaosaibamais:hover {
+    background-color: #0a80aa;
 }
