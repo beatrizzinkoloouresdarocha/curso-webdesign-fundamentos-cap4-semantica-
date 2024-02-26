@@ -1,11 +1,12 @@
 body {
     margin: 0;
-    padding: 10;
+    padding: 10px; /* Corrigido para incluir "px" */
     font-family: 'Arial', sans-serif;
 }
 
 header {
-    background-color:chartreuse;
+    background-color: chartreuse;
+    display: flex; /* Adicionado para alinhar os itens centralmente */
     align-items: center;
 }
 
@@ -20,13 +21,20 @@ nav ul {
 
 nav a {
     display: block;
-    color:floralwhite;
+    color: floralwhite;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 nav a:hover {
     background-color: #ddd;
-    color:black;
+}
+
+#texto-e-imagem {
+    width: 100%; /* Define a largura para ocupar 100% da largura do pai */
+}
+
+#texto-e-imagem img {
+    width: 100%; /* Define a largura da imagem como 100% da largura do contêiner */
 }
