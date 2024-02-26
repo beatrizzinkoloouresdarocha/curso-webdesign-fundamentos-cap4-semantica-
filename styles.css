@@ -37,3 +37,10 @@ nav a:hover {
 #texto-e-imagem img {
     width: 100%; /* Define a largura da imagem como 100% da largura do contêiner */
 }
+
+#div-texto {
+    background-color: lightblue; /* Define a cor de fundo */
+    padding: 30px; /* Adiciona espaço interno para melhor legibilidade */
+    margin-top:0px; /* Adiciona margem superior para separação do conteúdo acima */
+    border-radius: 0px; /* Adiciona bordas arredondadas */
+}
