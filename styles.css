@@ -66,7 +66,7 @@ nav a:hover {
 }
 
 #div-texto {
-    background-color: lightgray; /* Cor de fundo */
+    background-color: rgb(23, 206, 247); /* Cor de fundo */
     padding: 20px; /* Espaçamento interno */
     border: 1px solid black; /* Borda */
     border-radius: 5px; /* Borda arredondada */
