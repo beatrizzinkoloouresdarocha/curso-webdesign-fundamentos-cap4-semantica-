@@ -44,3 +44,8 @@ nav a:hover {
     margin-top:0px; /* Adiciona margem superior para separação do conteúdo acima */
     border-radius: 0px; /* Adiciona bordas arredondadas */
 }
+
+#div-texto strong {
+    font-weight: bold; /* Garante que a palavra "HTML" seja exibida em negrito */
+    font-size: 30px; /* Define o tamanho da fonte para a palavra "HTML" */
+}
