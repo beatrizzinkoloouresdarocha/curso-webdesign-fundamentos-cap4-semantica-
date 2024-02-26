@@ -41,8 +41,8 @@ nav a:hover {
 #div-texto {
     background-color: lightblue;
     padding: 30px;
-    margin-top: 20px; /* Ajustado para 20px */
-    border-radius: 10px; /* Adiciona bordas arredondadas */
+    margin-top: 0px; /* Ajustado para 20px */
+    border-radius: 0px; /* Adiciona bordas arredondadas */
 }
 
 #div-texto strong {
@@ -52,8 +52,8 @@ nav a:hover {
 
 /* Estilos para o botão */
 #botaosaibamais {
-    padding: 10px 20px;
-    background-color: #12ace9;
+    padding:10px;
+    background-color: #12e956;
     color: white;
     border: none;
     border-radius: 5px;
