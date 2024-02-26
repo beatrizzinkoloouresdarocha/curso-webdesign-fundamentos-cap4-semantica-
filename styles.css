@@ -64,3 +64,11 @@ nav a:hover {
 #botaosaibamais:hover {
     background-color: #0a80aa;
 }
+
+#div-texto {
+    background-color: lightgray; /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+    border: 1px solid black; /* Borda */
+    border-radius: 5px; /* Borda arredondada */
+    margin-bottom: 20px; /* Margem inferior */
+}
